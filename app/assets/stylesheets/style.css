@@ -277,8 +277,8 @@ li a.active {
 
 /*service area*/
 
-.service {
-    background: url(../assets/pattern.jpg);
+#service {
+    background: url(/assets/pattern.jpg);
     background-repeat: repeat-y;
     margin-top: 40px;
 }

@@ -1,7 +1,7 @@
 class LaboratorioController < ApplicationController
-  def page_1
+  def bienvenidos
   end
 
-  def page_2
+  def resultados
   end
 end

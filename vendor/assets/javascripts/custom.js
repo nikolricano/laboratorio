@@ -39,7 +39,7 @@ jQuery(document).ready(function () {
 
     function onScroll(event) {
         var scrollPos = $(document).scrollTop();
-        $('.navbar-default .navbar-nav>li>a').each(function () {
+        $('.navbar-default .navbar-nav>li>a.menu').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
             if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
