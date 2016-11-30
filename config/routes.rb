@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'laboratorio/page_1'
+  root 'laboratorio#bienvenidos'
 
-  get 'laboratorio/page_2'
+  get 'laboratorio/resultados'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,41 +1,3 @@
-<header class="top-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-5 header-logo">
-					<br>
-					<a href="index.html"><img src="/assets/logo.png" alt="" class="img-responsive logo"></a>
-				</div>
-
-				<div class="col-md-7">
-					<nav class="navbar navbar-default">
-					  <div class="container-fluid nav-bar">
-					    <!-- Brand and toggle get grouped for better mobile display -->
-					    <div class="navbar-header">
-					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					      </button>
-					    </div>
-
-					    <!-- Collect the nav links, forms, and other content for toggling -->
-					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-					      <ul class="nav navbar-nav navbar-right">
-					        <li><a class="menu active" href="#Inicio" >Inicio</a></li>
-					        <li><a class="menu" href="#acerca">Nosotros</a></li>
-                  <li><a class="menu" href="#resultados">​​​​​​​resultados </a></li>
-					        <li><a class="menu" href="#service">​​​​​​​​servicios </a></li>
-					        <li><a class="menu" href="#​​​​​​​​​contacto"> ​​​​​​​​​Contáctanos</a></li>
-					      </ul>
-					    </div><!-- /navbar-collapse -->
-					  </div><!-- / .container-fluid -->
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header> <!-- end of header area -->
 
 	<section class="slider" id="Inicio">
 		<div class="container-fluid">
@@ -45,7 +7,7 @@
 			        <!-- Wrapper for slides -->
 			        <div class="carousel-inner" role="listbox">
 			            <div class="item active">
-			            	<img src="/assets/slide-one.jpg" alt="">
+										<%= image_tag('slide-one.jpg') %>
 			                <div class="carousel-caption">
 		               			<h1>providing</h1>
 		               			<p>highquality service for men &amp; women</p>
@@ -53,7 +15,7 @@
 			                </div>
 			            </div>
 			            <div class="item">
-			            	<img src="/assets/slide-two.jpg" alt="">
+										<%= image_tag('slide-two.jpg') %>
 			                <div class="carousel-caption">
 		               			<h1>providing</h1>
 		               			<p>highquality service for men &amp; women</p>
@@ -61,7 +23,7 @@
 			                </div>
 			            </div>
 			            <div class="item">
-			            	<img src="/assets/slide-three.jpg" alt="">
+			            	<%= image_tag('slide-three.jpg') %>
 			                <div class="carousel-caption">
 		               			<h1>providing</h1>
 		               			<p>highquality service for men &amp; women</p>
@@ -69,7 +31,7 @@
 			                </div>
 			            </div>
 			            <div class="item">
-			            	<img src="/assets/slide-four.jpg" alt="">
+										<%= image_tag('slide-four.jpg') %>
 			                <div class="carousel-caption">
 		               			<h1>providing</h1>
 		               			<p>highquality service for men &amp; women</p>
@@ -100,7 +62,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="single-acerca-detail clearfix">
 						<div class="acerca-img">
-							<img class="img-responsive" src="/assets/item1.jpg" alt="">
+							<%= image_tag('item1.jpg', class: 'img-responsive logo') %>
 						</div>
 						<div class="acerca-details">
 							<div class="pentagon-text">
@@ -114,7 +76,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="single-acerca-detail">
 						<div class="acerca-img">
-							<img class="img-responsive" src="/assets/item2.jpg" alt="">
+							<%= image_tag('item2.jpg', class: 'img-responsive logo') %>>
 						</div>
 						<div class="acerca-details">
 							<div class="pentagon-text">
@@ -129,7 +91,7 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="single-acerca-detail">
 						<div class="acerca-img">
-							<img class="img-responsive" src="/assets/item3.jpg" alt="">
+							<%= image_tag('item3.jpg', class: 'img-responsive logo') %>
 						</div>
 						<div class="acerca-details">
 							<div class="pentagon-text">
@@ -155,7 +117,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<img class="heart img-responsive" src="/assets/service1.png" alt="">
+								<%= image_tag('service1.png', class: 'heart img-responsive') %>
 							</div>
 						</div>
 						<h3>Heart problem</h3>
@@ -165,7 +127,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<img class="brain img-responsive" src="/assets/service2.png" alt="">
+								<%= image_tag('service2.png', class: 'brain img-responsive') %>
 							</div>
 						</div>
 						<h3>brain problem</h3>
@@ -175,7 +137,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<img class="knee img-responsive" src="/assets/service3.png" alt="">
+								<%= image_tag('service3.png', class: 'knee img-responsive') %>
 							</div>
 						</div>
 						<h3>knee problem</h3>
@@ -185,7 +147,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<img class="bone img-responsive" src="/assets/service4.png" alt="">
+								<%= image_tag('service4.png', class: 'bone img-responsive') %>
 							</div>
 						</div>
 						<h3>human bones problem</h3>
@@ -237,19 +199,3 @@
 			</div>
 		</div>
 	</section><!-- end of ​​​​​​​​​contacto section -->
-
-	<!-- footer starts here -->
-	<footer class="footer clearfix">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-6 footer-para">
-					<p>&copy;Mostafizur All right reserved</p>
-				</div>
-				<div class="col-xs-6 text-right">
-					<a href=""><i class="fa fa-facebook"></i></a>
-					<a href=""><i class="fa fa-twitter"></i></a>
-					<a href=""><i class="fa fa-skype"></i></a>
-				</div>
-			</div>
-		</div>
-	</footer>
