@@ -3,5 +3,6 @@ class LaboratorioController < ApplicationController
   end
 
   def resultados
+    authenticate_user!
   end
 end

@@ -5,6 +5,18 @@
 						<div class="col-md-12 text-center">
 							<h3>Take care of your body.</h3>
 							<h1>It's the only place you have to live.</h1>
+							<div>
+							<% if user_signed_in? %>
+							  <li>
+							  <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+							  </li>
+							<% else %>
+							  <li>
+							  <%= link_to('Login', new_user_session_path)  %>
+							  </li>
+							<% end %>
+						  </div>
+
 							<span class="typed-cursor">|</span>
 						</div>
 					</div>
