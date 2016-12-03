@@ -1,12 +1,12 @@
 
-<div class="container register">
+<div class=jumbotron>
 
-  <h2>Autenticate para poder acceder a todo el contenido VIP</h2>
+  <h2>ingresa tu usuario y contraseña para acceder a tus resultados</h2>
 
   <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: {id: 'some'}) do |f| %>
     <div class="field">
-      <%= f.label :email %><br />
-      <%= f.email_field :email, autofocus: true %>
+      <%= f.label :login %><br />
+      <%= f.text_field :login, autofocus: true %>
     </div>
 
     <div class="field">
@@ -23,7 +23,7 @@
 
     <div class="actions">
       <%= f.submit "Log in", class: 'btn btn-default' %>
-      <%= link_to 'texto que debe aparecer', '#', class: 'btn btn-default', onclick: "$('#some').submit();" %>
+      
     </div>
   <% end %>
 
