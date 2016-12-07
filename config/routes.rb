@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get 'laboratorio/resultados'
   post 'laboratorio/send_mail'
+  post 'laboratorio/upload_file'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

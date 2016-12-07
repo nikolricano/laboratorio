@@ -39,6 +39,8 @@ group :development, :test do
 
   gem 'dotenv-rails'
 
+  gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+
 end
 
 group :development do
@@ -47,4 +49,5 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'rmagick', '~> 2.15', '>= 2.15.4'
 end
