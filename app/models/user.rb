@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
 
   validates_format_of :username, with: /^[a-zA-Z0-9_\.]*$/, multiline: true
 
+  has_many :galleries
   has_many :roles
 
   def login=(login)
