@@ -14,3 +14,31 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '707213549455531',
+    xfbml      : true,
+    version    : 'v2.8'
+  });
+};
+
+(function(d, s, id){
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement(s); js.id = id;
+   js.src = "//connect.facebook.net/en_US/sdk.js";
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+
+ function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
+function fbLogout() {
+  FB.logout(function (response) {
+    //Do what ever you want here when logged out like reloading the page
+    window.location.reload();
+  });
+}
