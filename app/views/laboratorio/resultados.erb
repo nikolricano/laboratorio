@@ -3,8 +3,7 @@
 				<div class="header-text">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h3>Take care of your body.</h3>
-							<h1>It's the only place you have to live.</h1>
+							<h3>Si gustas agrega una imagen.</h3>
 							<div>
 							<% if user_signed_in? %>
 							  <li>
@@ -22,7 +21,9 @@
 						<%= form_for @current_user, url: laboratorio_upload_file_path, method: :post do |f| %>
 						  <%= f.label :file %>:
 						  <%= f.file_field :file %><br />
-						  <%= f.submit %>
+							<%= f.button :submit do %>
+  						<i class='icon-white icon-ok'></i> Subir imagen
+							<% end %>
 						<% end %>
 						<% @current_user.galleries.each do |image| %>
 						<%= image_tag(image.file_url(:thumb)) %>
