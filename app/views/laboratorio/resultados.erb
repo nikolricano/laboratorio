@@ -22,7 +22,6 @@
 						<%= form_for @current_user, url: laboratorio_upload_file_path, method: :post do |f| %>
 						  <%= f.label :file %>:
 						  <%= f.file_field :file %><br />
-
 						  <%= f.submit %>
 						<% end %>
 						<% @current_user.galleries.each do |image| %>

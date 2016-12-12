@@ -3,6 +3,10 @@ class LaboratorioController < ApplicationController
   end
 
   def resultados
+    render layout: "barranavegacion"
+  end
+
+  def resultados
     authenticate_user!
     current_user
   end
