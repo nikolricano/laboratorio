@@ -33,21 +33,22 @@ class User < ActiveRecord::Base
 
 class << self
 
-  def find_for_database_authentication(warden_conditions)
-    conditions = warden_conditions.dup
-    if login = conditions.delete(:login)
-      where(conditions).where(["username = :value OR lower(email) = lower(:value)", { :value => login }]).first
-    elsif conditions.has_key?(:username) || conditions.has_key?(:email)
-      where(conditions.to_h).first
-    end
- end
-
   def from_omniauth(auth)
-        where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
+        return_user = where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
           user.provider = auth.provider
           user.uid = auth.uid
           user.email = auth.info.email
           user.password = Devise.friendly_token[0,20]
+       end
+       return_user.update(file: auth.info.image)
+       return_user
+    end
+  def find_for_database_authentication(warden_conditions)
+        conditions = warden_conditions.dup
+      if login = conditions.delete(:login)
+        where(conditions).where(["username = :value OR lower(email) = lower(:value)", { :value => login }]).first
+      elsif conditions.has_key?(:username) || conditions.has_key?(:email)
+        where(conditions.to_h).first
       end
     end
   end
