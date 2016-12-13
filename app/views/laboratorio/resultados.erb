@@ -15,6 +15,9 @@
 							  </li>
 							<% end %>
 						  </div>
+							<% if current_user.file? %>
+							 <img src= '<%= current_user.file %>'>
+						  <% end %>
 
 							<span class="typed-cursor">|</span>
 						</div>
