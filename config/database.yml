@@ -81,3 +81,7 @@ test:
 production:
   <<: *default
   database: basic_login_production
+  username: ubuntu
+  password: Cingular1a
+  host: localhost
+
