@@ -1,0 +1,1102 @@
+@charset "UTF-8";
+/*****
+*
+*
+*Author Name : Mostafizur Rahman
+*Author URI : http://mostafiz.me/
+*Version : 1.1
+*Description : This is a responsive HTML & Bootstrap template developed by Mostafizur Rahman
+*Template URI : http://mostafiz.me/demo/doctor/
+*
+*
+****/
+/* line 14, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'BenchNine', sans-serif;
+}
+
+/* line 19, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+li {
+  list-style: none;
+}
+
+/* line 22, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+a:hover,
+a:visited,
+a {
+  text-decoration: none;
+}
+
+/* line 27, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*header area*/
+/* line 35, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.top-header {
+  background: #fff !important;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+
+/* line 41, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.header-backup {
+  width: 20px;
+  height: 119px;
+  background: transparent;
+  margin: auto;
+}
+
+/* line 47, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.top-header img.logo {
+  margin-bottom: 25px;
+  margin-top: -15px;
+  transition: all .5s ease 0s;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  -ms-transition: all .5s ease 0s;
+}
+
+/* line 56, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0;
+  margin-top: 8px;
+  transition: all .5s ease 0s;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  -ms-transition: all .5s ease 0s;
+}
+
+/* line 67, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.nav-bar {
+  margin-top: 29px;
+}
+
+/* line 70, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.navbar-toggle span {
+  color: #fff;
+}
+
+/* line 73, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+ul.nav {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 77, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.navbar-default .navbar-nav > li > a {
+  font-size: 24px;
+  color: #737373;
+  text-transform: uppercase;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+  -moz-transition: all .7s ease 0s;
+  -o-transition: all .7s ease 0s;
+  -ms-transition: all .7s ease 0s;
+  padding: 14px 15px;
+  font-weight: bold;
+}
+
+/* line 89, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #42b3e5;
+}
+
+/* line 92, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+/* line 95, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+li a.active {
+  color: #42b3e5 !important;
+}
+
+/* line 98, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+  margin-top: 4px;
+}
+
+/*slider area*/
+/* line 105, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.slider-row {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 109, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.slider-wrapper {
+  margin: 0;
+  padding: 0 !important;
+  background: #000 !important;
+}
+
+/* line 114, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-caption h1 {
+  font-size: 157px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* line 120, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-caption p {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* line 127, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-caption button {
+  width: 240px;
+  height: 60px;
+  background: #3a9ecb;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  border: 0;
+  transition: all .5s ease 0s;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  -ms-transition: all .5s ease 0s;
+}
+
+/* line 141, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-caption button:hover {
+  background: #2a2a2a;
+}
+
+/* line 144, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-control {
+  width: 5%;
+}
+
+/* line 147, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-inner {
+  background: -webkit-linear-gradient(left, #000, blue);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #000, blue);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, #000, blue);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, #000, blue);
+  /* Standard syntax */
+}
+
+/* line 157, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.item {
+  position: relative;
+}
+
+/* line 160, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-caption {
+  position: absolute;
+  text-align: left;
+  left: 12%;
+  line-height: 1;
+  top: 50%;
+  margin-top: -100px;
+}
+
+/* line 168, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+  font-size: 18px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 50%;
+  color: transparent;
+  margin-left: 0;
+  margin-top: 50px;
+}
+
+/* line 178, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+  font-size: 18px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 50%;
+  color: transparent;
+  margin-right: 0;
+  margin-top: 50px;
+}
+
+/*acerca area*/
+/* line 191, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.acerca h2 {
+  font-size: 90px;
+  color: #42b3e5;
+  margin-top: 50px;
+}
+
+/* line 196, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.acerca h4 {
+  font-size: 24px;
+  color: #737373;
+  margin-bottom: 45px;
+}
+
+/* line 201, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.acerca-img img {
+  width: 100%;
+}
+
+/* line 204, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.single-acerca-detail {
+  position: relative;
+}
+
+/* line 207, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.pentagon-text h1 {
+  font-size: 60px;
+  color: #383838;
+  margin-top: 0;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+  -moz-transition: all .7s ease 0s;
+  -o-transition: all .7s ease 0s;
+  -ms-transition: all .7s ease 0s;
+  position: absolute;
+  left: 15%;
+  width: 50px;
+  top: -6%;
+}
+
+/* line 221, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.pentagon-text {
+  width: 70px;
+  height: 52px;
+  background: #fff;
+  position: relative;
+  top: -30px;
+  left: 43%;
+}
+
+/* line 229, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.pentagon-text:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 34px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+
+/* line 240, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.pentagon-text:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 0;
+  height: 0px;
+  border-left: 36px solid transparent;
+  border-right: 34px solid transparent;
+  border-top: 15px solid #fff;
+}
+
+/* line 251, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.acerca-details {
+  background: #2a2a2a;
+  border-top: 2px solid #fff;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+  -moz-transition: all .7s ease 0s;
+  -o-transition: all .7s ease 0s;
+  -ms-transition: all .7s ease 0s;
+}
+
+/* line 260, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.acerca-details h3 {
+  font-size: 36px;
+  color: #fff;
+  margin-top: 0;
+}
+
+/* line 265, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.acerca-details p {
+  font-size: 13px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 25px;
+  padding-bottom: 30px;
+}
+
+/* line 272, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.single-acerca-detail:hover .acerca-details {
+  background: #3a9dca;
+}
+
+/* line 275, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.single-acerca-detail:hover .pentagon-text h1 {
+  color: #3a9dca;
+}
+
+/*service area*/
+/* line 281, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service {
+  background-image: url(/assets/pattern-f04494d42ece736a81b367981141708307061b00969d7ca67474c9d65cb3dae9.jpg);
+  background-repeat: repeat-y;
+  margin-top: 40px;
+}
+
+/* line 286, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service h2 {
+  font-size: 90px;
+  color: #fff;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+/* line 292, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service h4 {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 70px;
+  display: block;
+}
+
+/* line 299, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.single-service-img {
+  width: 205px;
+  height: 125px;
+  background: #fff;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+}
+
+/* line 307, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.single-service-img:before {
+  content: "";
+  position: absolute;
+  top: -42px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 102px solid transparent;
+  border-right: 104px solid transparent;
+  border-bottom: 42px solid #fff;
+}
+
+/* line 318, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.single-service-img:after {
+  content: "";
+  position: absolute;
+  bottom: -42px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 102px solid transparent;
+  border-right: 102px solid transparent;
+  border-top: 42px solid #fff;
+  z-index: 10;
+}
+
+/* line 330, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service-img {
+  width: 200px;
+  height: 123px;
+  background: #3a9ecb;
+  position: relative;
+  top: 1px;
+  left: 2px;
+}
+
+/* line 338, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service-img:before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 40px solid #3a9ecb;
+}
+
+/* line 349, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service-img:after {
+  content: "";
+  position: absolute;
+  bottom: -39px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 40px solid #3a9ecb;
+  z-index: 999;
+}
+
+/* line 361, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.single-service h3 {
+  margin-top: 60px;
+  color: #fff;
+  padding-bottom: 90px;
+}
+
+/* line 366, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service-img img.heart {
+  left: 20%;
+  top: 18%;
+}
+
+/* line 370, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service-img img.brain {
+  left: 26%;
+  top: 11%;
+}
+
+/* line 374, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service-img img.knee {
+  left: 38%;
+}
+
+/* line 377, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service-img img.bone {
+  left: 25%;
+  top: 14%;
+}
+
+/* line 381, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.service-img img {
+  position: absolute;
+}
+
+/*​​​​​​​​​contacto section*/
+/* line 387, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-caption {
+  background: #3a9dca;
+}
+
+/* line 390, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-heading h2 {
+  color: #fff;
+  font-size: 90px;
+}
+
+/* line 394, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-info {
+  padding-left: 40px;
+}
+
+/* line 397, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-info h3 {
+  padding-left: 0;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #13849c;
+  padding-bottom: 12px;
+  margin-bottom: 0;
+}
+
+/* line 407, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-form h3 {
+  padding-left: 0;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #13849c;
+  padding-bottom: 12px;
+  margin-bottom: 0;
+}
+
+/* line 417, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-info ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 421, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-info ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* line 426, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-info i.fa {
+  font-size: 16px;
+  padding-right: 12px;
+  width: 25px;
+  height: 38px;
+}
+
+/* line 432, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-info ul li span {
+  font-weight: bold;
+}
+
+/* line 435, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-form input {
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  font-size: 13px;
+  color: #084a5c;
+  font-family: 'Open Sans', sans-serif;
+  padding: 12px;
+  border: 0;
+  margin-bottom: 12px;
+}
+
+/* line 446, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-form textarea {
+  font-family: 'Open Sans', sans-serif;
+  padding: 12px;
+  width: 100%;
+  height: 140px;
+  border: 0;
+  margin-bottom: 12px;
+}
+
+/* line 454, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.info-detail {
+  border-top: 1px solid #53cde5;
+  padding-top: 15px;
+}
+
+/* line 458, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.form {
+  border-top: 1px solid #53cde5;
+  padding-top: 15px;
+  text-align: right;
+}
+
+/* line 463, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-form input.submit-btn {
+  width: 180px;
+  height: 50px;
+  float: right;
+  font-size: 24px;
+  color: #fff;
+  background: url(../assets/btn-bg.jpg);
+  background-repeat: no-repeat;
+  padding: 0;
+  font-family: 'BenchNine', sans-serif;
+  font-weight: bold;
+}
+
+/* line 475, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-form {
+  padding-right: 40px;
+}
+
+/*gmap*/
+/* line 481, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+#map {
+  height: 830px;
+}
+
+/* line 484, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.map {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 488, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto {
+  position: absolute;
+  width: 100%;
+  height: 830px;
+  margin-top: 0px;
+  left: 0;
+  margin-top: -830px;
+  background: rgba(0, 0, 0, 0.51);
+}
+
+/* line 497, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.​​​​​​​​​contacto-caption {
+  margin-top: 120px;
+}
+
+/*footer*/
+/* line 503, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.footer-para {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 507, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.footer p {
+  font-size: 12px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 25px 0;
+}
+
+/* line 515, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.footer a i.fa {
+  font-size: 24px;
+  color: #b1b1b1;
+  padding: 22px 10px;
+}
+
+/* line 520, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.footer a i.fa:hover {
+  color: #42b3e5;
+}
+
+/* line 523, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-inner {
+  position: relative;
+}
+
+/*======================css for carousel=========================*/
+/* line 529, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+/* line 533, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+/* line 536, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+/* line 542, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+/* line 546, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.carousel-fade .carousel-control {
+  z-index: 2;
+  opacity: 1;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, transparent 100%);
+}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  /* line 553, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* line 559, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* line 565, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+/* just for demo purpose */
+/* line 576, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+
+/******************************
+responsive area
+********************************/
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 592, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    padding: 14px 12px;
+  }
+
+  /* line 596, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption h1 {
+    font-size: 120px;
+  }
+
+  /* line 599, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption p {
+    font-size: 32px;
+  }
+
+  /* line 602, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption button {
+    width: 215px;
+    height: 55px;
+    font-size: 26px;
+  }
+
+  /* line 607, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  h2 {
+    font-size: 75px !important;
+  }
+
+  /* line 610, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  h4 {
+    font-size: 22px !important;
+  }
+
+  /* line 613, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .person-detail h3 {
+    font-size: 26px;
+  }
+
+  /* line 616, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .person-detail p {
+    font-size: 12px;
+  }
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 624, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    padding: 10px 8px;
+  }
+
+  /* line 628, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption h1 {
+    font-size: 90px;
+  }
+
+  /* line 631, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption p {
+    font-size: 30px;
+  }
+
+  /* line 634, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption button {
+    width: 180px;
+    height: 50px;
+    background: #3a9ecb;
+    color: #fff;
+    font-size: 22px;
+  }
+
+  /* line 641, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  h2 {
+    font-size: 70px !important;
+  }
+
+  /* line 644, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  h4 {
+    font-size: 18px !important;
+  }
+
+  /* line 647, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  #map {
+    height: 1050px;
+  }
+
+  /* line 650, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto {
+    margin-top: -1050px;
+    height: 1050px;
+  }
+
+  /* line 654, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-caption {
+    margin-top: 110px;
+  }
+}
+/* xs */
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 662, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .header-logo img {
+    margin-top: 20px;
+  }
+
+  /* line 665, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+  }
+
+  /* line 668, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption {
+    margin-top: -110px;
+  }
+
+  /* line 671, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption h1 {
+    font-size: 75px;
+  }
+
+  /* line 674, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption p {
+    font-size: 25px;
+  }
+
+  /* line 677, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption button {
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  /* line 682, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  #map {
+    height: 1120px;
+  }
+
+  /* line 685, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto {
+    height: 1120px;
+    margin-top: -1120px;
+  }
+
+  /* line 689, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  h2 {
+    font-size: 70px !important;
+  }
+
+  /* line 692, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  h4 {
+    font-size: 21px !important;
+  }
+
+  /* line 695, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-info ul {
+    margin-left: 4px;
+  }
+
+  /* line 698, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-info i.fa {
+    width: 25px;
+  }
+
+  /* line 701, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-caption {
+    margin-top: 140px;
+  }
+}
+/* XS Portrait */
+@media (max-width: 479px) {
+  /* line 709, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .top-header img.logo {
+    margin: 20px 10px;
+  }
+
+  /* line 712, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .header-logo {
+    margin-top: 20px !important;
+  }
+
+  /* line 715, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .navbar-default .navbar-toggle {
+    border-color: #fff;
+    margin-top: -7px;
+    right: 10%;
+  }
+
+  /* line 720, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  /* line 724, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .header-backup {
+    height: 80px;
+  }
+
+  /* line 727, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption {
+    margin-top: -60px;
+  }
+
+  /* line 730, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+
+  /* line 733, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption p {
+    font-size: 12px;
+  }
+
+  /* line 736, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-caption button {
+    width: 90px;
+    height: 23px;
+    font-size: 16px;
+  }
+
+  /* line 741, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+    margin-top: 30px;
+  }
+
+  /* line 745, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-top: 30px;
+  }
+
+  /* line 749, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .acerca h2 {
+    font-size: 50px;
+    color: #42b3e5;
+    margin-top: 30px;
+  }
+
+  /* line 754, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .service h2 {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+
+  /* line 758, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .team h2 {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+
+  /* line 762, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  h4 {
+    font-size: 18px !important;
+  }
+
+  /* line 765, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-caption {
+    margin-top: 38%;
+  }
+
+  /* line 768, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  #map {
+    height: 950px;
+  }
+
+  /* line 771, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto {
+    height: 950px;
+    margin-top: -950px;
+  }
+
+  /* line 775, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-heading h2 {
+    font-size: 50px;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  /* line 780, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-info h3 {
+    margin-left: 8px;
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+
+  /* line 785, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .info-detail {
+    margin-left: 8px;
+  }
+
+  /* line 788, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-info ul li {
+    font-size: 10px;
+  }
+
+  /* line 791, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-info i.fa {
+    font-size: 13px;
+    width: 20px;
+    height: 18px;
+  }
+
+  /* line 796, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-info,
+  .​​​​​​​​​contacto-form {
+    padding: 10px;
+  }
+
+  /* line 800, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .​​​​​​​​​contacto-form h3 {
+    font-size: 25px;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+    margin-right: 0px;
+  }
+
+  /* line 806, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .footer a i.fa {
+    font-size: 18px;
+    padding: 25px 7px;
+  }
+
+  /* line 810, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+  .footer p {
+    font-size: 10px;
+  }
+}
+/* line 815, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+.jumbotron {
+  text-align: center;
+  margin-top: 100px;
+  padding: 100px;
+  margin-bottom: 30px;
+  color: #03A9F4;
+  background-color: #eee;
+}
+
+/* line 824, /Users/nikol/laboratorioconfb/app/assets/stylesheets/style.scss */
+input[type=file] {
+  display: inline;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+
+ */
+
